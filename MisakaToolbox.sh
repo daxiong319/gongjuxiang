@@ -369,7 +369,7 @@ menu1(){
     read -rp " 请输入选项 [0-13]:" menuInput
     case $menuInput in
         1) open_ports ;;
-        2) wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/rootLogin/master/root.sh && bash root.sh ;;
+        2) wget -N --no-check-certificate https://raw.githubusercontent.com/daxiong319/rootLogin/master/root.sh && bash root.sh ;;
         3) wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/screenManager/master/screen.sh && bash screen.sh ;;
         4) bbr_script ;;
         5) v6_dns64 ;;
